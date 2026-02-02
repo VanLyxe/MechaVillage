@@ -1,0 +1,33 @@
+{
+  "name": "mechapizza-village",
+  "version": "0.1.0",
+  "description": "Un MMORPG social et chill pour la communauté MechaPizzAI",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "npm run dev:server & npm run dev:client",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build": "npm run build:client && npm run build:server",
+    "build:client": "cd client && npm run build",
+    "build:server": "cd server && npm run build",
+    "start": "cd server && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mmorpg",
+    "phaser3",
+    "nodejs",
+    "socketio",
+    "discord",
+    "mechapizzai"
+  ],
+  "authors": [
+    "Julien - MechaPizzAI",
+    "Bob - Assistant IA"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mechapizzai/village.git"
+  }
+}
